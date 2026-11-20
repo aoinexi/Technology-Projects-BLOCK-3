@@ -14,13 +14,13 @@ Run:
 ### Questions
 
 1.  How many users exist on the system? 34 
-2.  Which accounts appear to be system accounts? codingcomets and digitaldetectives
-3.  Why do operating systems create system accounts? to save login details and make separate user preferences.
+2.  Which accounts appear to be system accounts? root. daemon, bin, sys, www-data, nobody, with service specific accounts of messagebus, and systemmd-network
+3.  Why do operating systems create system accounts? To run services with limited permissions to contain mistakes, security breaches, and manage which files and recourses each service can access to run a service safely.
 
 ### Reflection
 
 Explain why understanding system users is important for cybersecurity.
-System users for personalization and separation of files and data for multiple users to use one system, or a network of systems.
+System users for personalization and separation of files and data for multiple users to use one system, or a network of systems. And for smooth operation of systems.
 
 ------------------------------------------------------------------------
 
@@ -32,13 +32,14 @@ Run:
 
 ### Screenshot
 
-(Add screenshot here)
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/930ee75d-2069-401a-86a3-f4924d170502" />
+
 
 ### Questions
 
-1.  Which processes are running as `root`?
-2.  Why can processes running as root be dangerous?
-3.  What could happen if a malicious program ran with root privileges?
+1.  Which processes are running as `root`? SSH daemon, system logging, dhcpcd for networking, and desktop environment.
+2.  Why can processes running as root be dangerous? Unlimited control over the user's system, changing all users settings and can mess with the device.
+3.  What could happen if a malicious program ran with root privileges? Make more malware, damage the system, spy on user activity, and read or change or delete files.
 
 ### Reflection
 
