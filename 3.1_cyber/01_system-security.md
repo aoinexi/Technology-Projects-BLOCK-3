@@ -62,11 +62,10 @@ Run:
 
 1.  Which ports are open? The first 3 udp and the first 2 tcp
 2.  Which services appear to be listening? TCP appear to be the only ones listening
-3.  Why might open ports represent a security risk? A known port may allow unknown users to connect with the system.
-
+3.  Why might open ports represent a security risk? Making service vulnerable can help exploit or access data that they shouldnt.
 ### Reflection
 
 Explain the relationship between open ports and potential attack
 surfaces.
 
-Open ports are vulnerable security risks by other users as they act as weak spots to connect to a system if they're known.
+Open points are entry points to the system, forming where attackers might exploit. More reachable services mean more misconfigerations and vulnerablities.
