@@ -30,14 +30,16 @@ If you believe this is a mistake, reply with your full name, date of birth, and 
 
 ### Questions
 
-1.  Who appears to be the sender?
-2.  Does the email create urgency or pressure?
-3.  Are there spelling or grammar mistakes?
-4.  Does the link match the organisation domain?
+1.  Who appears to be the sender? Security team
+2.  Does the email create urgency or pressure? Yes because it claims the account will be locked in 24 hours
+3.  Are there spelling or grammar mistakes? Not necessarily
+4.  Does the link match the organisation domain? No, secure update verification is different from secure verification update.
 
 ### Reflection
 
 Explain why attackers use phishing emails.
+
+To gain access to secured computer systems via social engineering, and malicious gain.
 
 ------------------------------------------------------------------------
 
@@ -47,13 +49,16 @@ Hover over the link in the email (or copy link) and inspect the URL.
 
 ### Screenshot
 
-(Add screenshot)
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/74436914-2f19-471d-b96d-82859d532871" />
+
 
 ### Questions
 
-1.  Does the displayed link match the actual URL?
-2.  Are there unusual domain names?
+1.  Does the displayed link match the actual URL? No it does not match the actual URL
+2.  Are there unusual domain names? Yes the domain name is unusual.
 
 ### Reflection
 
 Explain why users should always inspect links before clicking them.
+
+In order to prevent phishing links of existing websites to prevent loss of data from personal accounts.
